@@ -1,0 +1,32 @@
+
+
+.CartImageItem{
+    height: 300px;
+    width:340px;
+}
+
+.cartImageTitle{
+    font-size:22px;
+    font-weight: 600;
+    color:cadetblue;
+}
+.divForCartItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:22px;
+}
+.EmptyCartImage{
+    height: 300px;
+}
+.EmptyImageBg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.BuyPropertyLink{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: ;
+}

@@ -1,0 +1,16 @@
+
+
+.CartImageItem{
+    height: 300px;
+    width:340px;
+}
+
+.cartImageTitle{
+    font-size:22px;
+    font-weight: 600;
+    color:cadetblue;
+}
+.divForCartItems{
+    display: flex;
+    flex-direction: row;
+}
