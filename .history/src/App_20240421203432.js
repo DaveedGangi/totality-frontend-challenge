@@ -52,9 +52,8 @@ class App extends Component {
    console.log("hooray")
 console.log(id)
 const cartList = this.state
-   const carts=cartList[0]
-   console.log(carts)
-
+   console.log(cartList)
+ 
   }
 
   decrementCartItemQuantity = id => {
