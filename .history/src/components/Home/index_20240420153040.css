@@ -1,0 +1,83 @@
+.rentalImage{
+    height:200px;
+    width:280px;
+}
+.loaderBg{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.NavBarForRental{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:66px;
+    width: 100%;
+    background-color: black;
+  
+   
+}
+.logoHome{
+    height:33px;
+    margin-left: 22px;
+    margin-top: 15px;
+    border-radius:5px;
+}
+.LogOutButton{
+    margin-right:22px;
+    margin-top: 15px;
+    background-color:crimson;
+    color:azure;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0px;
+    height: 33px;
+    width:77px;
+    border-radius:5px;
+}
+
+.Bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    width:100%;
+    flex-wrap: wrap;
+
+
+}
+.eachRental{
+    height: 450px;
+    width:300px;
+    margin: 12px;
+    
+}
+.title{
+    font-size: 18px;
+    color:burlywood;
+
+}
+.description{
+    font-size: 14px;
+    color:cadetblue;
+    overflow-y:auto;
+    height:77px;
+}
+.locationAndPrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.BookNowButton{
+    background-color:darkolivegreen;
+    color:azure;
+    font-weight: 600;
+    border:0px;
+    height:33px;
+    width:120px;
+    border-radius: 5px;
+}

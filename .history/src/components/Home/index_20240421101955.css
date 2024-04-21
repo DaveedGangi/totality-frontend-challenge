@@ -1,0 +1,165 @@
+.rentalImage{
+    height:200px;
+    width:280px;
+}
+.loaderBg{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.NavBarForRental{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:66px;
+    width: 100%;
+    background-color: black;
+  
+   
+}
+.logoHome{
+    height:33px;
+    margin-left: 22px;
+    margin-top: 15px;
+    border-radius:5px;
+}
+.LogOutButton{
+    margin-right:22px;
+    margin-top: 15px;
+    background-color:crimson;
+    color:azure;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0px;
+    height: 33px;
+    width:77px;
+    border-radius:5px;
+}
+
+.Bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    width:100%;
+    flex-wrap: wrap;
+
+
+}
+.eachRental{
+    height: 450px;
+    width:300px;
+    margin: 12px;
+    
+}
+.title{
+    font-size: 18px;
+    color:burlywood;
+
+}
+.description{
+    font-size: 14px;
+    color:cadetblue;
+    overflow-y:auto;
+    height:77px;
+}
+.locationAndPrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:crimson;
+    width:280px;
+}
+
+.BookNowButton{
+    background-color:darkolivegreen;
+    color:azure;
+    font-weight: 600;
+    border:0px;
+    height:33px;
+    width:120px;
+    
+    cursor: pointer;
+}
+
+.cartIcon{
+    color:blanchedalmond;
+    height:55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
+
+}
+.cartAndLogOut{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:180px;
+}
+.CartLink{
+    text-decoration: none
+}
+
+.NoDataFound{
+   
+  height:300px;
+width:300px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color:rgb(25, 36, 4);
+    font-weight: 600;
+    margin-bottom:200px;
+    
+    
+}
+
+.NotFoundImage{
+    height: 300px;
+    width:300px;
+}
+.radioBg{
+    background-color: rgb(122, 187, 139);
+    height:160px;
+    width:150px;
+    border-radius:6px;
+    padding:12px;
+    color:rgb(56, 59, 52);
+    font-weight: 600;
+    margin:44px;
+}
+.searchButton{
+    background-color: rgb(214, 76, 76);
+    color:rgb(195, 227, 213);
+    font-weight:600;
+    border:0px;
+    outline:none;
+    width:88px;
+    height:27px;
+    cursor: pointer;
+    border-top
+}
+
+.searchUser{
+    height:27px;
+    width:200px;
+    border:0px;
+    background-color: rgb(223, 217, 217);
+    color:rgb(142, 140, 137);
+    font-weight: 600;
+    outline:none;
+    padding-left:12px;
+   
+}
+.inputBgSearch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:33px;
+}

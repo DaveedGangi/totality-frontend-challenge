@@ -1,0 +1,2 @@
+
+import {Comoponent} from "react"

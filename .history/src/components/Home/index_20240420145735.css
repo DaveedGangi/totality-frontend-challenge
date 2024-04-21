@@ -1,0 +1,35 @@
+.rentalImage{
+    height:200px;
+    width:280px;
+}
+.loaderBg{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.NavBarForRental{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:66px;
+    width: 100%;
+    background-color: black;
+  
+   
+}
+.logoHome{
+    height:33px;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+.LogOutButton{
+    margin-right:22px;
+    margin-top: 15px;
+    background-color:crimson;
+    color:azure;
+    font-weight: 600;
+    cur
+}

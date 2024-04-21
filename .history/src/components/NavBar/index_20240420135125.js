@@ -1,0 +1,18 @@
+
+import {Comoponent} from "react" 
+
+
+class NavBar extends Component{
+
+
+    logout
+    render(){
+
+        return(
+
+            <div>
+                <button type="button" onClick={this.logout}>Logout</button>
+            </div>
+        )
+    }
+}
