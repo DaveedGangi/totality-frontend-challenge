@@ -100,7 +100,7 @@ removeCookie=()=>{
                                <h1 className="cartImageTitle">Price {each.quantity*each[0].pricess} L</h1>
                              </div>
                              <div>
-                              <button type="button">-</button>{each.quantity}
+                              <button type="button">-</button>{each.q}
                               <button type="button">+</button>
                              </div>
                              <div>

@@ -21,7 +21,6 @@
     padding:12px;
     background-color:antiquewhite;
     border-radius: 12px;
-    align-items:center;
 }
 .EmptyCartImage{
     height: 300px;
@@ -62,12 +61,11 @@
     color:brown;
     border:0px;
     outline:none;
-    width:99px;
-    height:27px;
+    width:88px;
+    height:25px;
     cursor:pointer;
     border-radius:12px;
-    font-weight:600;
-
+    font-weight:
 }
 
 @media screen and (max-width:767px){

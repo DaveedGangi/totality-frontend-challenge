@@ -21,7 +21,6 @@
     padding:12px;
     background-color:antiquewhite;
     border-radius: 12px;
-    align-items:center;
 }
 .EmptyCartImage{
     height: 300px;
@@ -59,15 +58,7 @@
 }
 .removeAllButton{
     background-color:aqua;
-    color:brown;
-    border:0px;
-    outline:none;
-    width:99px;
-    height:27px;
-    cursor:pointer;
-    border-radius:12px;
-    font-weight:600;
-
+    color:brown
 }
 
 @media screen and (max-width:767px){

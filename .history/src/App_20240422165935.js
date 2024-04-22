@@ -98,7 +98,7 @@ class App extends Component {
     console.log(cartList)
    return (
       <CreateContext.Provider value={{cartList,addCart:this.addCartItem,
-        removeAllItems:this.removeAllCartItems,
+        removeAllItems:
       deleteCart:this.removeCartItems}}>
      
       <Switch>

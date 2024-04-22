@@ -41,7 +41,7 @@ removeCookie=()=>{
                         
 
                         const removeAllItemsFromCart=()=>{
-                          removeAllItems();
+                          remove
                         }
                          const removeCartItemBasedOnId=(event)=>{
                           console.log("Remove");
@@ -84,9 +84,9 @@ removeCookie=()=>{
                              <div ><Link className="BuyPropertyLink" to="/"><button className="buyProperty" type="button">Buy Property</button></Link></div>
                               </div>:<div>
 
-                                <div className="removeAllBgForButton"> 
+                                <div> 
                                   <div>
-                                    <button className="removeAllButton" onClick={removeAllItemsFromCart} type="button" >Remove All</button>
+                                    <button onClick={removeAllItemsFromCart} type="button" className="removeAllButton">Remove All</button>
                                   </div>
                                 </div>
                               {cartList.map((each)=>(
@@ -98,10 +98,6 @@ removeCookie=()=>{
                               <div>
                                <h1 className="cartImageTitle">{each[0].title}</h1>
                                <h1 className="cartImageTitle">Price {each.quantity*each[0].pricess} L</h1>
-                             </div>
-                             <div>
-                              <button type="button">-</button>{each.quantity}
-                              <button type="button">+</button>
                              </div>
                              <div>
                              <button id={each[0].id} onClick={removeCartItemBasedOnId} type="button">Remove</button>

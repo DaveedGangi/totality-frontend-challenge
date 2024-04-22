@@ -18,7 +18,6 @@ import CreateContext from "./Context"
 import "./App.css"
 
 import ProductDetails from "./components/PropertyDetails"
-
 class App extends Component {
 
   state={cartList:[]}
@@ -50,10 +49,8 @@ class App extends Component {
   }
 
   removeCartItems = id=> {
-  
-   const {cartList}=this.state
-   const removeCartItem=cartList.filter((eachCart)=>eachCart.id!==id)
-   this.setState({cartList:removeCartItem})
+   console.log("removeCartItems")
+   console.log()
 
   }
 
@@ -64,7 +61,7 @@ class App extends Component {
     if (quantityDecreased.quantity > 1) {
       this.setState(prevState => ({
         cartList: prevState.cartList.map(each => {
-          if (each[0].id === id) {
+          if (each.id === id) {
             const decreasing = each.quantity - 1
             return {...each, quantity: decreasing}
           }
@@ -72,14 +69,14 @@ class App extends Component {
         }),
       }))
     } else {
-      this.removeCartItems(id)
+      this.removeCartItem(id)
     }
   }
 
   incrementCartItemQuantity = id => {
     this.setState(prevState => ({
       cartList: prevState.cartList.map(each => {
-        if (each[0].id === id) {
+        if (each.id === id) {
           const increaseQuantity = each.quantity + 1
           return {...each, quantity: increaseQuantity}
         }
@@ -98,7 +95,6 @@ class App extends Component {
     console.log(cartList)
    return (
       <CreateContext.Provider value={{cartList,addCart:this.addCartItem,
-        removeAllItems:this.removeAllCartItems,
       deleteCart:this.removeCartItems}}>
      
       <Switch>

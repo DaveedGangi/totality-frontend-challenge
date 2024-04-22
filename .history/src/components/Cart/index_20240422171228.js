@@ -86,7 +86,7 @@ removeCookie=()=>{
 
                                 <div className="removeAllBgForButton"> 
                                   <div>
-                                    <button className="removeAllButton" onClick={removeAllItemsFromCart} type="button" >Remove All</button>
+                                    <button className="removeAllButton" onClick={removeAllItemsFromCart} type="button" className="removeAllButton">Remove All</button>
                                   </div>
                                 </div>
                               {cartList.map((each)=>(
@@ -100,8 +100,7 @@ removeCookie=()=>{
                                <h1 className="cartImageTitle">Price {each.quantity*each[0].pricess} L</h1>
                              </div>
                              <div>
-                              <button type="button">-</button>{each.quantity}
-                              <button type="button">+</button>
+                              <button type="button">-</button>
                              </div>
                              <div>
                              <button id={each[0].id} onClick={removeCartItemBasedOnId} type="button">Remove</button>
