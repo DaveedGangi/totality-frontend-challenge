@@ -1,0 +1,112 @@
+
+
+.CartImageItem{
+    height: 200px;
+    width:260px;
+    border-radius:12px;
+}
+
+.cartImageTitle{
+    font-size:13px;
+    font-weight: 600;
+    color:cadetblue;
+}
+.divForCartItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:22px;
+    box-shadow: 1px 1px 2px rgb(186, 150, 150);
+    margin:55px;
+    padding:12px;
+    background-color:antiquewhite;
+    border-radius: 12px;
+    align-items:center;
+}
+.EmptyCartImage{
+    height: 300px;
+}
+.EmptyImageBg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.BuyPropertyLink{
+    list-style-type: none;
+    text-decoration: none;
+   
+}
+.buyProperty{
+    background-color: bisque;
+    color:rgb(54, 76, 77);
+    height:33px;
+    width:140px;
+    border:0px;
+    border-radius:12px;
+    margin-top:33px;
+    font-weight: 600;
+    cursor: pointer;
+    
+
+}
+
+.removeAllBgForButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin:55px;
+}
+.removeAllButton{
+    background-color:aqua;
+    color:brown;
+    border:0px;
+    outline:none;
+    width:99px;
+    height:27px;
+    cursor:pointer;
+    border-radius:12px;
+    font-weight:600;
+
+}
+.totalPrice{
+    font-size: 17px;
+    color:burlywood;
+
+}
+.checkOutButton{
+    background-color:cornflowerblue;
+    color:rgb(239, 244, 239);
+    border:0px;
+    width:120px;
+    height:30px;
+    cursor: pointer;
+    font-weight: 600;
+  
+}
+.checkOutBg{
+    background-color:aqua;
+    opacity: 0.9;
+    width:220px;
+    height:129px;
+    padding:12px;
+}
+.checkOutBgPlaced{
+    display: ;
+}
+
+@media screen and (max-width:767px){
+    .EmptyCartImage{
+        width:300px;
+        height:200px;
+        margin-bottom:228px;
+    }
+    .CartImageItem{
+        width:120px;
+        height:120px;
+    }
+    .divForCartItems{
+        margin:13px;
+        padding:17px;
+    }
+}
