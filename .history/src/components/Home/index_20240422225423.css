@@ -90,13 +90,11 @@
 
 .cartIcon{
     color:blanchedalmond;
- height:55px;
+    height:55px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
-    margin-top:12px;
-    margin-left:33px;
+    align-items:center
 
 }
 .cartAndLogOut{
@@ -186,8 +184,8 @@ width:300px;
     .cartAndLogOut{
         display: flex;
         flex-direction: row;
-       
-        
+        jus
+        width:55px;
     }
 
 }

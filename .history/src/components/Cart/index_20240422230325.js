@@ -37,7 +37,7 @@ removeCookie=()=>{
             <CreateContext.Consumer>
                 {
                     value=>{
-                        const{cartList,deleteCart,removeAllItems,incrementCartItemQuantity}=value 
+                        const{cartList,deleteCart,removeAllItems,incrementCartItemQuantity,decrementCartItemQuantity}=value 
                         
                         let Amount=0;
                         cartList.forEach((each)=>{
@@ -45,7 +45,10 @@ removeCookie=()=>{
                         })
 
 
-                       
+                        const decrementCartQuantity=(id)=>{
+                          console.log(id)
+                          decrementCartItemQuantity(id);
+                        }
 
                         const incrementCartQuantity=(id)=>{
                           console.log(id)
