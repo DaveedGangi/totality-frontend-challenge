@@ -1,0 +1,13 @@
+
+.bgForValidation{
+    margin:22px;
+    background-color:rgb(20, 232, 176);
+ width:1
+    background-size:cover;
+    height:100vh;
+}
+.validationHome{
+    font-weight: 600;
+    font-size:25px;
+    text-decoration: none;
+}

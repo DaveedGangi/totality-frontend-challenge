@@ -1,0 +1,143 @@
+
+
+.CartImageItem{
+    height: 200px;
+    width:260px;
+    border-radius:12px;
+}
+
+.cartImageTitle{
+    font-size:13px;
+    font-weight: 600;
+    color:cadetblue;
+}
+.divForCartItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:22px;
+    box-shadow: 1px 1px 2px rgb(180, 185, 188);
+    margin:55px;
+    padding:12px;
+    background-color:rgb(54, 50, 44);
+    border-radius: 12px;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.EmptyCartImage{
+    height: 300px;
+}
+.EmptyImageBg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.BuyPropertyLink{
+    list-style-type: none;
+    text-decoration: none;
+   
+}
+.buyProperty{
+    background-color: bisque;
+    color:rgb(54, 76, 77);
+    height:33px;
+    width:140px;
+    border:0px;
+    border-radius:12px;
+    margin-top:33px;
+    font-weight: 600;
+    cursor: pointer;
+    
+
+}
+
+.removeAllBgForButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin:55px;
+}
+.removeAllButton{
+    background-color:aqua;
+    color:brown;
+    border:0px;
+    outline:none;
+    width:130px;
+    height:27px;
+    cursor:pointer;
+    border-radius:4px;
+    font-weight:600;
+   
+
+}
+.totalPrice{
+    font-size: 17px;
+    color:burlywood;
+
+}
+.checkOutButton{
+    background-color:cornflowerblue;
+    color:rgb(239, 244, 239);
+    border:0px;
+    width:120px;
+    height:30px;
+    cursor: pointer;
+    font-weight: 600;
+  
+}
+.checkOutBg{
+    background-color:aqua;
+    opacity: 0.9;
+    width:270px;
+    height:149px;
+    padding:22px;
+    border-radius: 4px;
+}
+.checkOutBgPlaced{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin:44px;
+}
+.removeButton{
+    background-color:aliceblue;
+    border:0px;
+    border-radius:4px;
+    margin:22px;
+    width:99px;
+    font-weight: 400;
+}
+.flexingBasedOnScreen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+@media screen and (max-width:767px){
+    .EmptyCartImage{
+        width:300px;
+        height:200px;
+        margin-bottom:228px;
+    }
+    .CartImageItem{
+        width:120px;
+        height:120px;
+    }
+    .divForCartItems{
+        margin:13px;
+        padding:17px;
+    }
+    .checkOutBgPlaced{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin:22px;
+    }
+    .flexingBasedOnScreen{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
