@@ -1,0 +1,9 @@
+.notFoundImage{
+    height:400px;
+    width:300px;
+}
+.notFoundBg{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}

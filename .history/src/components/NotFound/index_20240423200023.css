@@ -1,0 +1,10 @@
+.notFoundImage{
+    height:400px;
+    width:300px;
+}
+.notFoundBg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}

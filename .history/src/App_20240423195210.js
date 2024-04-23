@@ -1,7 +1,7 @@
 import { Component} from "react" 
 
 
-import {Switch, Route,Redirect} from 'react-router-dom'
+import {Switch, Route} from 'react-router-dom'
 
 import Home from "./components/Home"
 
@@ -112,8 +112,8 @@ class App extends Component {
       <ProtectedRouter exact path="/cart" component={Cart}/>
       <ProtectedRouter exact path="/rental/:id" component={ProductDetails}/>
       <ProtectedRouter exact path="/FormExample" component={FormExample}/>
-      <Route path="/not-found" component={NotFound}/>
-      <Redirect to="not-found"/>
+      <Route path="not-found" component={NotFound}/>
+      <Redirect to
       </Switch>
       </CreateContext.Provider>
     
