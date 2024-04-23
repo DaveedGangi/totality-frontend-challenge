@@ -21,8 +21,6 @@ import ProductDetails from "./components/PropertyDetails"
 
 import FormExample from "./components/validation"
 
-import NotFound from "./components/NotFound"
-
 class App extends Component {
 
   state={cartList:[]}
@@ -112,8 +110,7 @@ class App extends Component {
       <ProtectedRouter exact path="/cart" component={Cart}/>
       <ProtectedRouter exact path="/rental/:id" component={ProductDetails}/>
       <ProtectedRouter exact path="/FormExample" component={FormExample}/>
-      <Route path="not-found" component={NotFound}/>
-      
+      <Route path=
       </Switch>
       </CreateContext.Provider>
     
